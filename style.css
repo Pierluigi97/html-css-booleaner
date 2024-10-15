@@ -33,11 +33,13 @@ header{
 header .logo{
   width: 200px;
 }
-/******* MAIN ********/
 
-main{
+main, footer{
   padding: 20px;
 }
+/******* MAIN ********/
+
+
 /** section top **/
 section#top .dida{
   color: #808080;
@@ -74,4 +76,29 @@ section#table table th.text{
 }
 section#table table tr.odd{
   background-color: #B1E6F2;
+}
+
+/**** FOOTER *****/
+
+footer h3{
+  color: #808080;
+}
+
+footer .image-box{
+  width: 205px;
+  height: 160px;
+  color: white;
+  background-color: red;
+  margin: 10px;
+  margin-left: 0;
+  padding: 15px;
+}
+footer .image-box h4{
+  font-size: 1.2rem;
+}
+footer .image-box#monitor{
+  background-image: url("./img/monitor.jpg");
+}
+footer .image-box#grafico{
+  background-image: url("./img/graph.jpg");
 }
