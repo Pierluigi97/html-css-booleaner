@@ -1,11 +1,21 @@
+*{
+  margin: 0;
+}
 body{
   margin: 0;
 }
+h1{
+  font-size: 2.5rem;
+}
 img{
   max-width: 100%;
-
 }
+/******* UTILS ********/
 
+.caption{
+  font-size: .8rem;
+}
+/******* HEADER ********/
 header{
   background-image: url("./img/pattern.png");
   background-color: #4EA1FF;
@@ -15,4 +25,21 @@ header{
 }
 header .logo{
   width: 200px;
+}
+/******* MAIN ********/
+
+main{
+  padding: 20px;
+}
+section#top .dida{
+  color: #808080;
+}
+section#top .dida .name{
+  color: #469AB9;
+}
+section#top .dida .data{
+  font-size: .8rem;
+}
+section#top .image-area{
+  padding-top: 20px;
 }
