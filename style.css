@@ -19,6 +19,9 @@ section{
 .caption{
   font-size: .8rem;
 }
+.highlight{
+  background-color: yellow;
+}
 /******* HEADER ********/
 header{
   background-image: url("./img/pattern.png");
@@ -48,11 +51,27 @@ section#top .dida .data{
 section#top .image-area{
   padding-top: 20px;
 }
-/** article **/
+/** section article **/
 section#article p{
   margin-bottom: 20px;
 }
 section#article ul{
   padding-left: 0;
   margin-left: 15px;
+}
+/** section table**/
+section#table table{
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+section#table table thead{
+  background-color: #24A9E3;
+  color: white;
+  text-align: left;
+}
+section#table table th.text{
+  width: 50%;
+}
+section#table table tr.odd{
+  background-color: #B1E6F2;
 }
