@@ -10,6 +10,10 @@ h1{
 img{
   max-width: 100%;
 }
+
+section{
+  margin-bottom: 20px;
+}
 /******* UTILS ********/
 
 .caption{
@@ -31,6 +35,7 @@ header .logo{
 main{
   padding: 20px;
 }
+/** section top **/
 section#top .dida{
   color: #808080;
 }
@@ -42,4 +47,12 @@ section#top .dida .data{
 }
 section#top .image-area{
   padding-top: 20px;
+}
+/** article **/
+section#article p{
+  margin-bottom: 20px;
+}
+section#article ul{
+  padding-left: 0;
+  margin-left: 15px;
 }
